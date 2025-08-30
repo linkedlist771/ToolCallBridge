@@ -1,0 +1,17 @@
+[project]
+name = "toolcallbridge"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.116.1",
+    "fire>=0.7.1",
+    "loguru>=0.7.3",
+    "openai>=1.102.0",
+    "pydantic>=2.11.7",
+    "regex>=2025.8.29",
+    "uuid>=1.30",
+    "uvicorn>=0.35.0",
+]
